@@ -1,0 +1,66 @@
+.timer__block {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+}
+
+.timer__container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.timer__title {
+    text-align: center;
+    font-size: 58px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #432207;
+}
+
+.timer__content {
+    color: #432207;
+    background: #fff2db;
+    border-radius: 20px;
+}
+
+.timer__inner_container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 45px;
+}
+
+.timer__input {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.timer__input>input {
+    width: 150px;
+    background: #f0d4b1;
+    border-radius: 10px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.timer__btns {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.timer__btns>button {
+    background: #f0d4b1;
+    color: #432207;
+    text-align: center;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    line-height: normal;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

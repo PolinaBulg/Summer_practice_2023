@@ -1,0 +1,6 @@
+@import "./reset.css";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #eac482dd;
+}
